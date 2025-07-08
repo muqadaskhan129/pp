@@ -27,11 +27,12 @@ nav {
 
 .nav-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;   /* centers items horizontally */
   align-items: center;
-   flex-direction: column; /* Stack logo and nav links */
-    align-items: center;
+  flex-direction: row;       /* keeps logo and links in one line */
+  gap: 40px;                 /* spacing between logo and nav links */
 }
+
 
 
 
