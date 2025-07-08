@@ -112,19 +112,7 @@ footer {
   margin-top: 10%;
 }
 
-/* Responsive Nav */
-@media (max-width: 768px) {
-  .nav-container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
 
-  .nav-links {
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
-  }
-}
 @media (max-width: 768px) {
   body {
     font-size: 16px;
